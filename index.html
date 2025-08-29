@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper_Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="head1">Rock Paper Scissor </h1>
+    <!-- Game Choices -->
+    <div class="choices">
+        <button class="box" id="rock"></button>
+        <button class="box" id="paper"></button>
+        <button class="box" id="scissor"></button>
+    </div>
+
+    <section class="move-display">
+        <p id="user-move">🧑 You: -</p>
+        <p id="comp-move">🤖 Computer: -</p>
+    </section>
+    <!-- Scoreboard -->
+    <div class="score-board">
+        <div class="score">
+            <p id="userScore" class="circle">0</p>
+            <p class="identifier">You</p>
+        </div>
+        <div class="score">
+            <p id="CompScore" class="circle">0</p>
+            <p class="identifier">Computer</p>
+        </div>
+    </div>
+
+    <!-- Reset Button -->
+    <button id="reset-btn">Reset</button>
+
+    <!-- winner message -->
+    <div class="winner">
+        <h1 class="msg"></h1>
+    </div>
+
+      <!-- Rules Section -->
+    <footer class="rules">
+        <h2>📜 How to Play</h2>
+        <p>✊ Rock beats ✂️ Scissors</p>
+        <p>✂️ Scissors beat 📄 Paper</p>
+        <p>📄 Paper beats ✊ Rock</p>
+        <p>If both choose the same → It's a Draw 🤝</p>
+    </footer>
+
+     <footer class="fade-in">
+        <p>✨ Made with ❤️ by Pranit ✨</p>
+    </footer>
+
+  
+    <script src="script.js"></script>
+</body>
+</html>
